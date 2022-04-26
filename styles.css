@@ -275,7 +275,7 @@ body::-webkit-scrollbar {
 }
 
 .c-img#that_placeholder {
-  background-image: url("../images/imageonline-co-placeholder-image.png");
+  background-image: url("/images/imageonline-co-placeholder-image.png");
   position: absolute;
   top: 30%;
   left: 40%;
@@ -296,7 +296,7 @@ body::-webkit-scrollbar {
   position: absolute;
   top: 5%;
   right: 5%;
-  width: 10%;
+  width: 20%;
 }
 
 .c-img#C2img {
