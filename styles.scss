@@ -1,0 +1,41 @@
+@import 'src/vars';
+
+* {
+
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+
+    min-height: 500vh;
+    min-width: 100%;
+
+    background: linear-gradient(color('white'), color(mid-grey));
+
+    overflow-y: auto;
+    scroll-behavior: smooth;
+
+    font-size: 16px;
+
+// Otestovat scrollbar i v dalších prohlížečích...
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.test {
+    height: 100vh;
+    border: 1px solid black;
+    background-color: green;
+}
+
+@import 'src/l-layers';
+@import 'src/c-progress';
+@import 'src/c-Intro';
+@import 'src/c-text';
+@import 'src/c-img';
+@import 'src/1918';

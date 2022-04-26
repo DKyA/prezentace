@@ -1,0 +1,157 @@
+.c-img {
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+
+    & > img {
+
+        width: 100%;
+
+    }
+
+    &--4_3 {
+
+        width: 400px;
+        aspect-ratio: 4/3;
+
+    }
+
+    &#that_placeholder {
+
+        background-image: url('/images/imageonline-co-placeholder-image.png');
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        width: 300px;
+        height: 300px;
+
+        filter: grayscale(100%);
+
+    }
+
+    &#C1img {
+
+        position: absolute;
+        bottom: 10%;
+        left: 40%;
+
+        width: 40%;
+
+    }
+
+    &#C1img2 {
+
+        position: absolute;
+        top: 5%;
+        right: 5%;
+
+        width: 10%;
+
+    }
+
+    &#C2img {
+
+        position: absolute;
+        bottom: 5%;
+        left: 27%;
+
+        width: 32.5%;
+
+    }
+
+    &#C2img2 {
+
+        position: absolute;
+        top: 5%;
+        left: 58%;
+
+        width: 15%;
+
+    }
+
+    &#C2img3 {
+
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+
+        width: 32.5%;
+
+    }
+
+
+    &#C3img {
+
+        position: absolute;
+        bottom: 5%;
+        left: 30%;
+
+        width: 60%;
+
+    }
+
+    &#C3img2 {
+
+        position: absolute;
+        top: 10%;
+        right: 5%;
+
+        width: 25%;
+
+    }
+
+    &#C4img {
+
+        position: absolute;
+        bottom: 5%;
+        left: 30%;
+
+        width: 35%;
+
+    }
+
+    &#C4img2 {
+
+        position: absolute;
+        top: 10%;
+        right: 5%;
+
+        width: 25%;
+
+    }
+
+
+    &#C5img {
+
+        position: absolute;
+        bottom: 5%;
+        left: 30%;
+
+        width: 45%;
+
+    }
+
+    &#C5img2 {
+
+        position: absolute;
+        top: 10%;
+        right: 5%;
+
+        width: 25%;
+
+    }
+
+    &#C0img {
+
+        position: absolute;
+        top: 10%;
+        left: 35%;
+
+        width: 10%;
+
+    }
+
+}

@@ -1,0 +1,31 @@
+.intro-map {
+
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+
+    height: fit-content;
+    width: 55%;
+
+    &__img {
+
+        transform: rotateX(60deg);
+        transform-origin: bottom;
+
+    }
+
+    &__plane {
+
+        width: 100px;
+        height: auto;
+
+        position: absolute;
+        bottom: 40%;
+        left: 40%;
+
+        box-shadow: -10px 75px 20px rgba(0, 0, 0, 0.2); // Pracovat s tímhle pak s modely.
+        border-radius: 100%;
+
+    }
+
+}

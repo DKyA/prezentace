@@ -1,0 +1,38 @@
+.c-1918__plane {
+    position: absolute;
+    top: 0;
+    left: -10%;
+    filter:invert(70%);
+}
+
+.c-1938__map {
+    position: absolute;
+    top: 2.5%;
+    left: 25%;
+    filter: grayscale(100%) brightness(120%) invert(15%);
+    width: 30%;
+}
+
+.c-1945__plane {
+    @extend .c-1918__plane;
+    width: 400px;
+    top: 10%;
+    left: 10%;
+}
+
+.c-1948__plane {
+    @extend .c-1945__plane;
+    width: 500px;
+    top: 10%;
+    left: 20%;
+    filter: grayscale(100%) opacity(60%);
+}
+
+.c-dotazy__plane {
+    @extend .c-1945__plane;
+    width: 500px;
+    top: 20%;
+    left: 10%;
+    filter: grayscale(100%) opacity(20%);
+    transform: rotate(-10deg);
+}

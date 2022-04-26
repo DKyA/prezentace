@@ -1,0 +1,58 @@
+.c-progress {
+
+    height: 80vh;
+
+    position: relative;
+    right: 30%;
+
+    @include flex(row, center, center);
+
+    &__holder {
+
+        width: 10px;
+        height: 100%;
+
+        @include flex(row, flex-end, flex-end);
+
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: space(1);
+    }
+
+    &__val {
+
+        height: 100px; // TEMP
+        width: 100%;
+
+        background-color: rgba(0, 0, 0, .15);
+        border-radius: space(1);
+
+    }
+
+    &__periods {
+
+        height: 100%;
+        padding-left: space(1.5);
+
+        @include flex(column, space-between, flex-start);
+
+    }
+
+    &__period {
+
+        font-size: 1.2em;
+        line-height: 1.2em;
+
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: color(dimmed);
+
+        transition: color .3s ease-in-out;
+
+        &--active {
+
+            color: color(info);
+
+        }
+
+    }
+
+}
